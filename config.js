@@ -29,8 +29,8 @@ module.exports = {
   errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
   read_status : process.env.AUTO_READ_STATUS || 'true',
   save_status : process.env.AUTO_SAVE_STATUS || 'true',
-  packname:  process.env.PACK_NAME || "🕊️⃝🌺𓆩𝐀ωɑ͢ɪ̽s̑̈ 𝐉u͓ȶȶ𓆪💚⃝🌏" ,
-  autoreaction: process.env.AUTO_REACTION || 'false',  //  | 'cmd' | 'true' | 'all' |
+  packname:  process.env.PACK_NAME || "𝐀ωɑ͢ɪ̽s̑̈" ,
+  autoreaction: process.env.AUTO_REACTION || 'false', //  | 'cmd' | 'true' | 'all' |
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokeyuntillYouPutAnWordHere',
   alwaysonline: process.env.WAPRESENCE || '', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
   antifake : 'null', // process.env.FAKE_COUNTRY_CODE ||'212',
